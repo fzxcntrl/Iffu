@@ -13,7 +13,7 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[rgb(var(--background))] z-10" />
           <img 
-            src="https://images.unsplash.com/photo-1523398002811-999aa8d9512e?auto=format&fit=crop&q=80" 
+            src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=1920&q=80" 
             alt="Hero Background" 
             className="w-full h-full object-cover opacity-40 grayscale"
           />
@@ -96,7 +96,7 @@ const Home = () => {
             {[1, 2, 3, 4].map((item) => (
               <div key={item} className="group relative flex flex-col gap-4">
                 <Link to="/shop" className="block relative overflow-hidden bg-white/5 aspect-[3/4]">
-                  <img src={`https://images.unsplash.com/photo-1523398002811-999aa8d9512e?auto=format&fit=crop&q=80`} alt="Placeholder" className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" />
+                  <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=800&q=80" alt="Placeholder" className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0" />
                 </Link>
                 <div className="flex justify-between items-start">
                   <div>
